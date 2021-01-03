@@ -69,13 +69,13 @@ In your terminal:
     * `git commit -m '210104_repo_setup'`
     * `git push origin main`
     
-### 4. Create a Conda Environment`
+### 4. Create a Conda Environment
 In your terminal: 
 * `conda create -n dsr-setup python=3.6`
 * `conda activate dsr-setup`
 * conda [cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
-### 5. Install needed packages`
+### 5. Install needed packages
 Still in your terminal and in the root folder of your repository execute
 * `pip install -r requirements.txt`
 
