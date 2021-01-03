@@ -59,7 +59,7 @@ In your terminal:
     * there are also automatic ways to create this file. However, they are some times either too detailed or do not include everything
         * create with pip: `pip freeze > requirements.txt`
         * create with [PyCharm](https://www.jetbrains.com/help/pycharm/managing-dependencies.html#configure-requirements)
-    * for the exercise add the following:
+    * for the exercise add the following:\
     `numpy==1.19.2` \
     `pandas==1.1.3` \
     `seaborn==0.11.0` \
@@ -85,13 +85,8 @@ In your terminal make sure the environment is activated and execute:
 * python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
     * in general`python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
 
-### 7. Start Jupyter Lab / Jupyter Notebook
-* make sure the environment is activated
-* just type `jupyter lab` or `jupyter notebook`
-* **NOTE**: the folder, from which folder you started jupyter, will be your root folder. 
-
-
-### 8. Install a Code Formatter
+ 
+### 7. Install a Code Formatter
 * it is a best-practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 * especially while learning, try to pay attention to it and correct yourself manually
 * you can then automatically format your code by installing a code formatter
@@ -100,7 +95,14 @@ In your terminal make sure the environment is activated and execute:
 * `jupyter serverextension enable --py jupyterlab_code_formatter`
 * `pip install autopep8`
 * [documentation](https://jupyterlab-code-formatter.readthedocs.io/en/latest/installation.html#installation-step-1-installing-the-plugin-itself)
+* deactivate & activate the environment in order for the changes to take place:
+    * `conda deactivate`
+    * `conda activate dsr-setup` 
 
+### 8. Start Jupyter Lab / Jupyter Notebook
+* make sure the environment is activated
+* just type `jupyter lab` or `jupyter notebook`
+* **NOTE**: the folder, from which folder you started jupyter, will be your root folder.
 
 ---
 
