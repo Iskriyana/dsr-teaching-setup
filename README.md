@@ -40,7 +40,8 @@ It follows these steps:
 ### 2. Clone the New Repository
 In your terminal:
 * go to the folder, in which you keep your repositories. Use `cd <YOUR FOLDER NAME>`
-* execute `git clone https://github.com/<YOUR USERNAME>/<YOUR REPO NAME>.git`
+* execute `git clone https://github.com/<YOUR USERNAME>/dsr-setup.git`
+    * in general `git clone https://github.com/<YOUR USERNAME>/<YOUR REPO NAME>.git`
 * if you need any help, see this [tutorial](https://help.github.com/articles/cloning-a-repository/).
 
 
@@ -58,6 +59,11 @@ In your terminal:
     * there are also automatic ways to create this file. However, they are some times either too detailed or do not include everything
         * create with pip: `pip freeze > requirements.txt`
         * create with [PyCharm](https://www.jetbrains.com/help/pycharm/managing-dependencies.html#configure-requirements)
+    * for the exercise add the following:
+    `numpy==1.19.2` \
+    `pandas==1.1.3` \
+    `seaborn==0.11.0` \
+    `scikit-learn==0.23.2`
 * after setting the files, push to repository by typing in your terminal
     * `git add .`
     * `git commit -m '210104_repo_setup'`
@@ -65,8 +71,8 @@ In your terminal:
     
 ### 4. Create a Conda Environment`
 In your terminal: 
-* `conda create -n test-env python=3.6`
-* `conda activate test-env`
+* `conda create -n dsr-setup python=3.6`
+* `conda activate dsr-setup`
 * conda [cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ### 5. Install needed packages`
@@ -76,7 +82,8 @@ Still in your terminal and in the root folder of your repository execute
 ### 6. Make The Environment Visible in Jupyter Lab / Jupyter Notebook
 In your terminal make sure the environment is activated and execute:
 * `pip install ipykernel`
-* `python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
+* python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
+    * in general`python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
 
 ### 7. Start Jupyter Lab / Jupyter Notebook
 * make sure the environment is activated
@@ -89,8 +96,10 @@ In your terminal make sure the environment is activated and execute:
 * especially while learning, try to pay attention to it and correct yourself manually
 * you can then automatically format your code by installing a code formatter
 * make sure your environment is activated
+* `pip install jupyterlab_code_formatter`
+* `jupyter serverextension enable --py jupyterlab_code_formatter`
 * `pip install autopep8`
-* `jupyter serverextension enable --py autopep8`
+* [documentation](https://jupyterlab-code-formatter.readthedocs.io/en/latest/installation.html#installation-step-1-installing-the-plugin-itself)
 
 
 ---
