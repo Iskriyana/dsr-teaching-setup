@@ -61,7 +61,7 @@ In your terminal:
 * after setting the files, push to repository by typing in your terminal
     * `git add .`
     * `git commit -m '210104_repo_setup'`
-    * `git push origin main
+    * `git push origin main`
     
 ### 4. Create a Conda Environment`
 In your terminal: 
