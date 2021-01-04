@@ -29,10 +29,10 @@ It follows these steps:
 
 ### 1. Create a Repo in GutHub
 
-* you can create a repo in GutHub by following these [instructions](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo
+* You can create a repo in GutHub by following these [instructions](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo
 )
 * Initialise the repository with both a readme and a .gitignore file
-    * the readme is what you are reading now ;). It contains useful information about the project and how to set it up
+    * the README is what you are reading now 😉. It contains useful information about the project and how to set it up
     * the .gitignore file contains all files and folders that should NOT be pushed to the repository, i.e. they should remain hidden. Examples are: files containing passwords, folders containing raw data. Select the template for Python.  
 ![readme_gitignore](./assets/readme_gitignore.png)
 
