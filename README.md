@@ -82,8 +82,8 @@ Still in your terminal and in the root folder of your repository execute
 ### 6. Make The Environment Visible in Jupyter Lab / Jupyter Notebook
 In your terminal make sure the environment is activated and execute:
 * `pip install ipykernel`
-* python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
-    * in general`python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
+* `python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
+    * in general `python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
 
  
 ### 7. Install a Code Formatter
