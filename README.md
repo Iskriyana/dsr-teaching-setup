@@ -102,7 +102,7 @@ In your terminal make sure the environment is activated and execute:
 ### 8. Start Jupyter Lab / Jupyter Notebook
 * make sure the environment is activated
 * just type `jupyter lab` or `jupyter notebook`
-* **NOTE**: the folder, from which folder you started jupyter, will be your root folder.
+* **NOTE**: the folder, from which you started jupyter, will be your root folder.
 
 ---
 
