@@ -87,7 +87,7 @@ In your terminal make sure the environment is activated and execute:
 
  
 ### 7. Install a Code Formatter
-* it is best-practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+* it is best practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 * especially while learning, try to pay attention to it and correct yourself manually
 * you can then automatically format your code by installing a code formatter
 * make sure your environment is activated
