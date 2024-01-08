@@ -28,7 +28,7 @@ It follows these steps:
 
 ## Detailed Instructions 
 
-### 1. Create a Repo in GutHub
+### 1. Create a Repo in GitHub
 
 * You can create a repo in GutHub by following these [instructions](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo
 )
