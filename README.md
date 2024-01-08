@@ -61,18 +61,19 @@ In your terminal:
         * create with pip: `pip freeze > requirements.txt`
         * create with [PyCharm](https://www.jetbrains.com/help/pycharm/managing-dependencies.html#configure-requirements)
     * For the exercise add the following:\
-    `numpy==1.24.1` \
-    `pandas==1.5.2` \
-    `seaborn==0.12.2` \
-    `scikit-learn==1.2.0`
+    `numpy==1.26.3` \
+    `pandas==2.1.4` \
+    `seaborn==0.13.1` \
+    `scikit-learn==1.3.2`
+
 * After setting the files, push to repository by typing in your terminal
     * `git add .`
-    * `git commit -m '210104_repo_setup'`
+    * `git commit -m '240108_repo_setup'`
     * `git push origin main`
     
 ### 4. Create a Conda Environment
 In your terminal: 
-* `conda create -n dsr-setup python=3.10`
+* `conda create -n dsr-setup python=3.12`
 * `conda activate dsr-setup`
 * conda [cheat sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
