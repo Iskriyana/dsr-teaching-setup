@@ -87,8 +87,13 @@ In your terminal make sure the environment is activated and execute:
 * `python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
     * in general `python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
 
- 
-### 7. Bonus: Install a Code Formatter
+### 7. Start Jupyter Lab / Jupyter Notebook
+* Make sure the environment is activated
+* Just type `jupyter lab` or `jupyter notebook`
+* **NOTE**: the folder, from which you started jupyter, will be your root folder.
+* **NOTE**: if your tool of choice does not start, try first installing it by running `conda install jupyter`or `conda install jupyterlab`
+
+### Bonus: Install a Code Formatter
 * It is best practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 * Especially while learning, try to pay attention to it and correct yourself manually
 * You can then automatically format your code by installing a code formatter
@@ -100,12 +105,6 @@ In your terminal make sure the environment is activated and execute:
 * Deactivate & activate the environment in order for the changes to take place:
     * `conda deactivate`
     * `conda activate dsr-setup` 
-
-### 8. Start Jupyter Lab / Jupyter Notebook
-* Make sure the environment is activated
-* Just type `jupyter lab` or `jupyter notebook`
-* **NOTE**: the folder, from which you started jupyter, will be your root folder.
-* **NOTE**: if your tool of choice does not start, try first installing it by running `conda install jupyter`or `conda install jupyterlab`
 
 ---
 
