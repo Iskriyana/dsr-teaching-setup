@@ -99,9 +99,9 @@ In your terminal make sure the environment is activated and execute:
 * You can then automatically format your code by installing a code formatter
 * Make sure your environment is activated
 * `pip install jupyterlab_code_formatter`
-* `jupyter serverextension enable --py jupyterlab_code_formatter`
+* `jupyter server extension enable --py jupyterlab_code_formatter`
 * `pip install autopep8`
-* [documentation](https://jupyterlab-code-formatter.readthedocs.io/en/latest/installation.html#installation-step-1-installing-the-plugin-itself)
+* [documentation](https://jupyterlab-code-formatter.readthedocs.io/installation.html)
 * Deactivate & activate the environment in order for the changes to take place:
     * `conda deactivate`
     * `conda activate dsr-setup` 
