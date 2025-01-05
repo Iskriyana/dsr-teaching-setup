@@ -14,8 +14,7 @@ It follows these steps:
 4. Create a Conda environment
 5. Install needed packages
 6. Make the environment visible in Jupyter Notebook / Jupyter Lab
-7. Install a Code Formatter
-8. Start Jupyter Lab / Jupyter Notebook
+7. Start Jupyter Lab / Jupyter Notebook
             
  
 ### Tech Stack 
