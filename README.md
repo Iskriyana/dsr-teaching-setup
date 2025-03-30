@@ -80,17 +80,17 @@ In your terminal:
 Still in your terminal and in the root folder of your repository execute
 * `pip install -r requirements.txt`
 
-### 6. Make The Environment Visible in Jupyter Lab / Jupyter Notebook
-In your terminal make sure the environment is activated and execute:
-* `pip install ipykernel`
-* `python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
-    * in general `python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
-
-### 7. Start Jupyter Lab / Jupyter Notebook
+### 6. Start Jupyter Lab / Jupyter Notebook
 * Make sure the environment is activated
 * Just type `jupyter lab` or `jupyter notebook`
 * **NOTE**: the folder, from which you started jupyter, will be your root folder.
 * **NOTE**: if your tool of choice does not start, try first installing it by running `conda install jupyter`or `conda install jupyterlab`
+
+### Bonus: Make The Environment Visible in Jupyter Lab / Jupyter Notebook
+In your terminal make sure the environment is activated and execute:
+* `pip install ipykernel`
+* `python -m ipykernel install --user --name dsr-setup --display-name "dsr-setup"`
+    * in general `python -m ipykernel install --user --name <YOUR ENVIRONMENT> --display-name "<YOUR ENVIRONMENT DISPLAY NAME>"`
 
 ### Bonus: Install a Code Formatter
 * It is best practice to format your Python code according to [PEP 8](https://www.python.org/dev/peps/pep-0008/)
